@@ -10,7 +10,7 @@ A status board written in Python for the Raspberry Pi.
 
 This repository ships with a development environment built in Vagrant, which requires [VirtualBox](https://www.virtualbox.org/) and [Vagrant](https://www.vagrantup.com/) to be installed on the host machine.
 
-To use the Vagrant development box, `cd` to the `root directory of this project and run `vagrant up`. This will take some time the first time the command is run, as it needs to download the base box and configure it for first use.
+To use the Vagrant development box, `cd` to the root directory of this project and run `vagrant up`. This will take some time the first time the command is run, as it needs to download the base box and configure it for first use.
 
 Once the box loads, run `vagrant rsync-auto` to keep the contents of the project folder in sync with the Vagrant box so you can make changes and preview them.
 
